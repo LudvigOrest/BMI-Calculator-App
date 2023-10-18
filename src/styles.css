@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: rgb(154, 154, 255);
+};
+
+.flex {
+    display: flex;
+}
+
+#main-content {
+    display:flex;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 0, 0, 0.118);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
