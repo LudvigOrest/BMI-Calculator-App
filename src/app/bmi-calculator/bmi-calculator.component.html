@@ -1,0 +1,23 @@
+<div class="flex" id="main-content">
+    <div id="calc-wrapper">
+        <div id="calculator-container">
+            <form id="user-form">
+                <div>
+                    <label name="height">Längd (cm): </label>
+                    <input type="number" name="height" [(ngModel)]="height">
+                </div>
+                <br/>
+                <div>
+                    <label name="weight">Vikt (kg): </label>
+                    <input type="number" name="weight" [(ngModel)]="weight">
+                </div>
+                <br/>
+                <button type="button" (click)="calculate()">Räkna ut IBM</button>
+            </form>
+            <div id="result-container">
+                Din BMI: {{ bmi }}
+            </div>
+        </div>
+    </div>
+</div>
+
